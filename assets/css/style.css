@@ -167,7 +167,7 @@ button, a { transition: var(--transition); }
   padding: 5px;
   display: grid;
   place-items: center;
-  border-radius: var(--radius-14);
+  border-radius: var(--radius-10);
   font-family: var(--ff-nunito);
   font-size: var(--fs-6);
   font-weight: var(--fw-600);
@@ -434,6 +434,7 @@ button, a { transition: var(--transition); }
   gap: 5px;
   color: var(--independence);
   font-size: var(--fs-6);
+  cursor: none;
 }
 
 .featured-car-link span { transition: var(--transition); }
@@ -1552,4 +1553,56 @@ button, a { transition: var(--transition); }
 	padding: 10px;
 	margin-top: 20px;
 	width: 100%;
+}
+
+
+.solity {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  font: inherit;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+  background: hsl(0, 0%, 95%);
+  border: none;
+  border-radius: 6px;
+  transition: 200ms;
+}
+
+.solity:hover {
+  background: hsl(0, 0%, 90%);
+}
+
+/**
+   * Loader
+   */
+.loader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: lightgrey;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.disppear{
+  animation: vanish 1s forwards;
+}
+@keyframes vanish {
+  100%{
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+svg {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:500px;
 }
