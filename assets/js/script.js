@@ -125,30 +125,3 @@ function vanish() {
 	loader.classList.add("disppear");
 }
 
-
-
-var BarFill = $('#LoadFill'),
-    Bar = $('#LoadBar')
-    logo = $('#Logo')
-    Tl = new TimelineMax({repeat:-1,repeatDelay:1});
-Tl.fromTo(BarFill,0.3,{drawSVG:'0%'},{drawSVG:'50%',ease:Linear.easeNone})
-.fromTo(BarFill,0.3,{drawSVG:'10% 60%'},{drawSVG:'60% 100%',ease:Linear.easeNone})
-.to(BarFill,0.3,{drawSVG:'77% 100%',ease:Power0.easeInOut})
-.to(BarFill,0.3,{drawSVG:'0% 60%',ease:Power0.easeOut},'fadeOutLogo')
-.to(BarFill,0.3,{drawSVG:'0% 30%',ease:Power0.easeOut})
-.to(BarFill,0.25,{drawSVG:'60% 60%'},'fadeoutLine')
-.to(logo,0.7,{autoAlpha:0,y:35,ease:Power0.easeOut},'fadeOutLogo')
-.to(Bar,0.25,{drawSVG:'50% 50%',autoAlpha:0},'fadeoutLine')
-Tl.timeScale(0.9)
-
-
-
-
-
-
-
-
-
-
-
-
