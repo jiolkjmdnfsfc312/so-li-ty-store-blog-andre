@@ -1,7 +1,7 @@
 {
     "name": "Solity",
     "short_name": "Solity",
-    "start_url": "/PWA-Store/",
+    "start_url": "/1. PWA-Store/",
     "display": "standalone",
     "background_color": "#fdfdfd",
     "theme_color": "#db4938",

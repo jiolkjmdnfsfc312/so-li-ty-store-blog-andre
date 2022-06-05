@@ -1,7 +1,7 @@
 const staticSolity = "Solity-v1"
   const assets = [
     "/",
-    "/PWA-Store/",
+    "/1. PWA-Store/",
     "/assets/css/style.css",
     "/assets/css/style-prefix.css",
     "/assets/js/script.js",
