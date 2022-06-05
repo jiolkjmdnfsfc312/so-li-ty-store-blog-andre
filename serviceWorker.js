@@ -1,10 +1,10 @@
-const staticBlogAndre = "blog-andresite-v1"
+const staticsolity = "solity-v1"
 const assets = [
   "/",
-  "/PWA-Blog/",
-  "/assets/css/blog-andre.css",
-  "/assets/css/blog-andre-2.css",
-  "/assets/js/blog-andre.js",
+  "/1. PWA-Store/",
+  "/assets/css/style.css",
+  "/assets/css/style-prefix.css",
+  "/assets/js/script.js",
   "/images/coffee1.jpg",
   "/images/coffee2.jpg",
   "/images/coffee3.jpg",
@@ -18,7 +18,7 @@ const assets = [
 
 self.addEventListener("install", installEvent => {
   installEvent.waitUntil(
-    caches.open(staticBlogAndre).then(cache => {
+    caches.open(staticsolity).then(cache => {
       cache.addAll(assets)
     })
   )
