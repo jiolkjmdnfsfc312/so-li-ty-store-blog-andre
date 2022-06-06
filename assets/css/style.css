@@ -496,9 +496,9 @@ button, a { transition: var(--transition); }
 
 .featured-car-card .card-title > a:is(:hover, :focus) { color: var(--carolina-blue); }
 
-.featured-car-card .year {
+.featured-car-card .date {
   font-family: var(--ff-nunito);
-  font-size: var(--fs-6);
+  font-size: var(--fs-10);
   font-weight: var(--fw-600);
   padding: 3px 12px;
   border: 2px dashed hsla(204, 91%, 53%, 0.4);
@@ -546,7 +546,7 @@ button, a { transition: var(--transition); }
 }
 
 .featured-car-card .card-price strong {
-  font-size: var(--fs-3);
+  font-size: var(--fs-10);
   font-weight: var(--fw-400);
 }
 
