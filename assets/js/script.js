@@ -149,7 +149,3 @@ let calcScrollValue = () => {
   
   window.onscroll = calcScrollValue;
   window.onload = calcScrollValue;
-
-  function myFunction() {
-	location.href = "https://www.w3schools.com";
-  }
