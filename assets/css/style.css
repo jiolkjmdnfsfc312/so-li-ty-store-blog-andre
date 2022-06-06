@@ -826,13 +826,20 @@ button, a { transition: var(--transition); }
   margin-bottom: 20px;
 }
 
-.social-link { font-size: 20px; }
+.social-link { 
+  font-size: 20px; 
+}
 
-.social-link ion-icon { --ionicon-stroke-width: 40px; }
+.social-link ion-icon { 
+  --ionicon-stroke-width: 40px; 
+}
 
 .social-link:is(:hover, :focus) { color: var(--carolina-blue); }
 
-.copyright { font-size: var(--fs-6); }
+.copyright {
+   font-size: var(--fs-6); 
+   text-align: center;
+  }
 
 .copyright > a { display: inline-block; }
 
@@ -1298,7 +1305,7 @@ button, a { transition: var(--transition); }
 }
 .product {
   position: fixed;
-  z-index: 999;
+  z-index: 100;
   top: 0;
   left: 0;
   display: flex;
