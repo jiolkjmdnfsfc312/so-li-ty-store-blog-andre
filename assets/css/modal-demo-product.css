@@ -1,0 +1,35 @@
+.bottom-bar {
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #333333;
+    color: #ffffff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+  }
+  
+  .bottom-bar__content {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .bottom-bar__content > * {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bottom-bar__text {
+    padding-right: 10px;
+  }
+  
+  .bottom-bar__close {
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 2em;
+  }

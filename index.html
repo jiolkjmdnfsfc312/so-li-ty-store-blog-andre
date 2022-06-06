@@ -71,10 +71,10 @@
         <a onclick="Modal.open('#modal02')" class="btn" aria-labelledby="aria-label-txt">
           <ion-icon name="share-outline"></ion-icon>
 
-          <span id="aria-label-txt">Explore cars</span>
+          <span id="aria-label-txt">Share</span>
         </a>
 
-        <a onclick="Modal.open('#modal01')" class="btn user-btn" aria-label="Profile">
+        <a href="auth/" class="btn user-btn" aria-label="Profile">
           <ion-icon name="person-outline"></ion-icon>
         </a>
 
@@ -212,12 +212,7 @@
       </section>
 
 
-
-
-
-      <!-- 
-        - #GET START
-      -->
+      <!-- GET START -->
 
       <section class="section get-start">
         <div class="container">
@@ -299,12 +294,7 @@
       </section>
 
 
-
-
-
-      <!-- 
-        - #BLOG
-      -->
+      <!-- BLOG -->
 
       <section class="section blog" id="blog">
         <div class="container">
@@ -527,10 +517,7 @@
   </main>
 
 
-
-
-
-  <!--  #FOOTER -->
+  <!-- FOOTER -->
 
   <footer class="footer">
     <div class="container">
@@ -674,60 +661,26 @@
 
         <p style="padding-top: 30px;">Code Yang Di Gunakan :
           <li>&raquo; HTML</li>
-          <li>&raquo;	CSS</li>
-          <li>&raquo;	JavaScript</li>
+          <li>&raquo; CSS</li>
+          <li>&raquo; JavaScript</li>
         </p>
       </div>
       <footer class="modal--footer">
-        <button onclick="Modal.change('#ProductWebEcom01-Pay', event)" class="solity">Payment</button>
+        <button onclick="ProductTodoListV1()" class="solity">Payment</button>
       </footer>
     </section>
-  </div>
-
-  <div class="product" id="ProductWebEcom01-Pay" data-backdrop>
-    <form action="" class="modal">
-      <header class="modal--header">
-        <h3 class="modal--title">Payment</h3>
-        <div class="button" data-type="icon" onclick="Modal.close(event)" data-modal-close><svg class="icon icon-clear"
-            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-            <path
-              d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
-          </svg></div>
-      </header>
-      <div class="modal--content">
-        <div class="form-control">
-          <label for="username">Username</label>
-          <input type="text" placeholder="Masukkan Username" id="username" required />
-          <i class="fas fa-check-circle"></i>
-          <i class="fas fa-exclamation-circle"></i>
-          <small>Error message</small>
-        </div>
-        <div class="form-control">
-          <label for="username">Email</label>
-          <input type="email" placeholder="Masukkan Email Anda" id="email" required />
-          <i class="fas fa-check-circle"></i>
-          <i class="fas fa-exclamation-circle"></i>
-          <small>Error message</small>
-        </div>
-        <div class="form-control">
-          <label for="username">Phone Number</label>
-          <input type="number" placeholder="Masukkan Nomor Telepon Anda" id="email" required />
-          <i class="fas fa-check-circle"></i>
-          <i class="fas fa-exclamation-circle"></i>
-          <small>Error message</small>
-        </div>
-      </div>
-      <footer class="modal--footer">
-        <button type="submit">Submit</button>
-      </footer>
-    </form>
   </div>
   <!-- Modals Todo List V1 -->
 
 
+  <div id="progress">
+    <span id="progress-value">&#x1F815;</span>
+  </div>
 
   <!--  custom js link -->
   <script src="assets/js/script.js"></script>
+  <!--  custom js link -->
+  <script src="assets/js/page-to-form-payment.js"></script>
 
   <!--  ionicon link -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
