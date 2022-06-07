@@ -1,3 +1,12 @@
+// Loader
+var loader = document.querySelector(".loader")
+
+window.addEventListener("load", vanish);
+
+function vanish() {
+	loader.classList.add("disppear");
+}
+
 const toastContainer = document.querySelector(".toast-container");
 const closeBtn = document.querySelector(".toast-container .close");
 const toastLink = document.querySelector(".toast-container a");
