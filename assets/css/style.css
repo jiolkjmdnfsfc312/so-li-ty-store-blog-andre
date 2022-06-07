@@ -647,6 +647,7 @@ button, a { transition: var(--transition); }
   position: relative;
   color: var(--carolina-blue);
   width: max-content;
+  cursor: none;
 }
 
 .get-start-card .card-link::before {
@@ -1000,7 +1001,7 @@ button, a { transition: var(--transition); }
 
   .hero-banner {
     display: block;
-    background: url("../images/hero-banner.jpg") no-repeat;
+    background: url("/assets/images/logo/solity.png") no-repeat;
     background-size: cover;
     background-position: left;
     position: absolute;
@@ -1010,6 +1011,7 @@ button, a { transition: var(--transition); }
     width: 500px;
     border-radius: 30px;
     z-index: -1;
+    pointer-events: none;
   }
 
 
