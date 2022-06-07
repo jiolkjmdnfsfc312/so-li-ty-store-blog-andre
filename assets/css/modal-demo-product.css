@@ -1,35 +1,49 @@
-.bottom-bar {
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: #333333;
-    color: #ffffff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
-    box-sizing: border-box;
-  }
-  
-  .bottom-bar__content {
-    max-width: 500px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .bottom-bar__content > * {
-    display: flex;
-    align-items: center;
-  }
-  
-  .bottom-bar__text {
-    padding-right: 10px;
-  }
-  
-  .bottom-bar__close {
-    background: none;
-    border: none;
-    color: #ffffff;
-    cursor: pointer;
-    font-size: 2em;
-  }
+.toast-container {
+  position: fixed;
+  bottom: -140px;
+  width: 90%;
+  height: 50px;
+  max-width: 720px;
+  display: flex;
+  align-items: center;
+  background: #000;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  padding: 0 16px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px -4px rgba(0, 0, 0, 0.2);
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 1800ms ease;
+}
+
+.toast-container.active {
+  bottom: 20px;
+}
+
+.toast-container h3 {
+  font-weight: 800;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.toast-container .text-content {
+  padding: 0 24px;
+  padding-right: 40px;
+}
+
+.toast-container p.author-name {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.toast-container a {
+  color: #5f64f3;
+}
+
+.toast-container .close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+}
