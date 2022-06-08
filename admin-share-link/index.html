@@ -1,87 +1,75 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Solity</title>
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
-<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="./style.css">
 
 </head>
+
 <body>
-<!-- partial:index.partial.html -->
-<div class="container small my-5">
-  <div class="row d-flex justify-content-between mx-auto mt-4 mb-3">
-    <h1 class="h3 ml-2 mb-3 text-info">Share Url Product</h1>
-    <div class="col-lg-8 col-md-12">
-      <div class="row justify-content-end">
-        <div class="input-group col-lg-10 col-md-12">
-          <div class="input-group-prepend"><span class="form-control bg-light text-white rounded-0 text-primary"><i class="fa fa-search" aria-hidden="true"></i></span></div>
-          <input class="form-control" id="search-box" type="text" name="search" placeholder="Search for... " required="required"/>
-          <div class="input-group-append">
-            <select class="form-control bg-light rounded-0 text-capitalize" id="search-filter" name="search-filter">
-              <option value="listitem">All</option>
-              <option value="name">Name</option>
-              <option value="url">Url</option>
-              <option value="date">Date</option>
-              <option value="status">Status</option>
-            </select>
+  <!-- partial:index.partial.html -->
+  <div class="container small my-5">
+    <div class="row d-flex justify-content-between mx-auto mt-4 mb-3">
+      <h1 class="h3 ml-2 mb-3 text-info">Share Url Product</h1>
+      <div class="col-lg-8 col-md-12">
+        <div class="row justify-content-end">
+          <div class="input-group col-lg-10 col-md-12">
+            <div class="input-group-prepend"><span class="form-control bg-light text-white rounded-0 text-primary"><i
+                  class="fa fa-search" aria-hidden="true"></i></span></div>
+            <input class="form-control" id="search-box" type="text" name="search" placeholder="Search for... "
+              required="required" />
+            <div class="input-group-append">
+              <select class="form-control bg-light rounded-0 text-capitalize" id="search-filter" name="search-filter">
+                <option value="listitem">All</option>
+                <option value="name">Name</option>
+                <option value="url">Url</option>
+                <option value="date">Date</option>
+                <option value="status">Status</option>
+              </select>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="table-responsive">
+      <table class="table responsive" style="min-width:800px;">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Url</th>
+            <th>Date</th>
+            <th class="text-center">Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Item -->
+          <tr class="listitem">
+            <td class="td-name text-uppercase" title="Name">
+              <div class="tbl-btn d-sm-none text-primary cursor-pointer d-flex align-items-center h-100"><i
+                  class="fa fa-chevron-circle-down" aria-hidden="true"></i></div><a class="hyperlink"
+                href="https://www.solity.my.id/m/1. File Share Download/2022/todo-v1/">Todo List V1</a>
+            </td>
+            <td class="td-url" title="url">https://www.solity.my.id/m/1. File Share Download/2022/todo-v1/</td>
+            <td class="td-date" title="date">08 Juni 2022</td>
+            <td class="td-status text-center" title="Status">Active</td>
+          </tr>
+          <!-- Item -->
+
+        </tbody>
+      </table>
+    </div>
   </div>
-  <div class="table-responsive">
-    <table class="table responsive" style="min-width:800px;">
-      <thead> 
-        <tr>
-          <th>Name</th>
-          <th>Url</th>
-          <th>Date</th>
-          <th class="text-center">Status</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr class="listitem">
-          <td class="td-name text-uppercase" title="Name">
-            <div class="tbl-btn d-sm-none text-primary cursor-pointer d-flex align-items-center h-100"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></div><a class="hyperlink" href="#">Todo List V1</a>
-          </td>
-          <td class="td-url" title="url">https://codepen.io/search/pens?q=search+filter&cursor=ZD0xJm89MCZwPTQ=</td>
-          <td class="td-date" title="date">08 Juni 2022</td>
-          <td class="td-status text-center" title="Status">Active</td>
-        </tr>
-        <tr class="listitem">
-          <td class="td-name text-uppercase" title="Name">
-            <div class="tbl-btn d-sm-none text-primary cursor-pointer d-flex align-items-center h-100"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></div><a class="hyperlink" href="#">Chryss Infante</a>
-          </td>
-          <td class="td-url" title="url">Iloilo City of love</td>
-          <td class="td-email" title="Email">christianreyinfante@gmail.com</td>
-          <td class="td-status text-center" title="Status">Inactive</td>
-        </tr>
-        <tr class="listitem">
-          <td class="td-name text-uppercase" title="Name">
-            <div class="tbl-btn d-sm-none text-primary cursor-pointer d-flex align-items-center h-100"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></div><a class="hyperlink" href="#">John Doe</a>
-          </td>
-          <td class="td-url" title="url">Toronto, Canada</td>
-          <td class="td-email" title="Email">johndoe@gmail.com</td>
-          <td class="td-status text-center" title="Status">Active</td>
-        </tr>
-        <tr class="listitem">
-          <td class="td-name text-uppercase" title="Name">
-            <div class="tbl-btn d-sm-none text-primary cursor-pointer d-flex align-items-center h-100"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></div><a class="hyperlink" href="#">Jane Doe</a>
-          </td>
-          <td class="td-url" title="url">Burgos Street, La Paz, Manila City</td>
-          <td class="td-email" title="Email">janedoe@gmail.com</td>
-          <td class="td-status text-center" title="Status">Active</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
-<!-- partial -->
+  <!-- partial -->
   <script src='https://code.jquery.com/jquery-3.4.0.min.js'></script>
-<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script><script  src="./script.js"></script>
+  <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script>
+  <script src="./script.js"></script>
 
 </body>
+
 </html>
