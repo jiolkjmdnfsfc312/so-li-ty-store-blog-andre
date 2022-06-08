@@ -79,7 +79,7 @@
           </li>
 
           <li>
-            <a href="#" class="navbar-link" data-nav-link>Ui/Ux Design</a>
+            <a href="#" class="navbar-link" data-nav-link>Design Ui/Ux</a>
           </li>
 
           <li>
@@ -90,7 +90,7 @@
             <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
           </li>
 
-        </ul>
+        </ul> 
       </nav>
 
       <div class="header-actions">
@@ -656,7 +656,7 @@
       <div class="footer-bottom">
         <ul class="social-list">
           <li>
-            <a href="#" class="social-link">
+            <a href="https://www.instagram.com/solityid/" class="social-link">
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
           </li>
@@ -718,6 +718,36 @@
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
+  <script>
+    setInterval(function(){
+            var status = navigator.onLine ? 'Your internet connection is back' : 'No Internet Connection!';/* check whether online */
+            document.getElementById('internetStatus').innerHTML = status; /* display 'anchor' somewhere */
+        
+            if(status ==  'No Internet Connection!') {
+                var internetStatus = document.getElementsByTagName("a");
+                for (var i = 0; i < internetStatus.length; i++) {
+                  internetStatus[i].onclick = function(e) {event.preventDefault();};
+                };
+            }
+        }, 400);
+
+
+    var myDate = new Date();
+    var hrs = myDate.getHours();
+
+    var greet;
+
+    if (hrs < 9)
+      greet = 'Buka';
+
+    else 
+    alert('Halo Kak, Toko Kami Sedang Tutup Bisa Lanjutkan Pembelian Pada Jam Buka Toko.')
+    if (hrs >= 18 && hrs <= 24)
+      greet = 'Tutup';
+
+    document.getElementById('welcome').innerHTML =
+      '<b>' + greet + '</b> ';
+  </script>
 </body>
 
 </html>

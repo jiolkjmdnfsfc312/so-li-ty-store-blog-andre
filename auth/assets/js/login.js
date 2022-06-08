@@ -1,6 +1,13 @@
 // Your web app's Firebase configuration (ENTER YOUR FIREBASE CONFIGURATION DETAILS)
 var firebaseConfig = {
-    
+    apiKey: "AIzaSyCS2tZedRisKQFXwPNC0jQBQpgI2c4Au3o",
+    authDomain: "solityid.firebaseapp.com",
+    databaseURL: "https://solityid-default-rtdb.firebaseio.com",
+    projectId: "solityid",
+    storageBucket: "solityid.appspot.com",
+    messagingSenderId: "104352057353",
+    appId: "1:104352057353:web:e25f4d0c9ee5da730810d8",
+    measurementId: "G-F9XDBPK1R3"
     };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);

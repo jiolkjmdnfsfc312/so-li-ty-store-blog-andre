@@ -13,7 +13,8 @@
   <!--  google font link -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -106,42 +107,44 @@
             <li>
               <div class="featured-car-card">
                 <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" onclick="Modal.open('#ProductWebEcom01')" alt="Toyota RAV4 2021"
-                    loading="lazy" width="440" height="300" class="w-100">
+                  <img src="../../assets/images/product/2022/todo-v1/Solity.png" onclick="Modal.open('#ProductTodoListV1')"
+                    alt="Solity" loading="lazy" width="440" height="300" class="w-100">
                 </figure>
                 <div class="card-content">
                   <div class="card-title-wrapper">
                     <h3 class="h3 card-title">
-                      <a href="#">Toyota RAV4</a>
+                      <a onclick="Modal.open('#ProductTodoListV1')">Todo List V1</a>
                     </h3>
-                    <data class="year">Feee</data>
+                    <data class="date">2022</data>
                   </div>
                   <ul class="card-list">
                     <li class="card-list-item">
-                      <ion-icon name="people-outline"></ion-icon>
-                      <span class="card-item-text">4 People</span>
+                      <ion-icon name="save-outline"></ion-icon>
+                      <span class="card-item-text">Local Storage</span>
                     </li>
                     <li class="card-list-item">
-                      <ion-icon name="flash-outline"></ion-icon>
-                      <span class="card-item-text">Hybrid</span>
+                      <ion-icon name="expand-outline"></ion-icon>
+                      <span class="card-item-text">Responsive</span>
                     </li>
                     <li class="card-list-item">
-                      <ion-icon name="speedometer-outline"></ion-icon>
-                      <span class="card-item-text">6.1km / 1-litre</span>
+                      <ion-icon name="code-slash-outline"></ion-icon>
+                      <span class="card-item-text">HTML, CSS & JS</span>
                     </li>
                     <li class="card-list-item">
-                      <ion-icon name="hardware-chip-outline"></ion-icon>
-                      <span class="card-item-text">Automatic</span>
+                      <ion-icon name="phone-portrait-outline"></ion-icon>
+                      <span class="card-item-text">Mobile Friendly</span>
                     </li>
                   </ul>
                   <div class="card-price-wrapper">
                     <p class="card-price">
                       <strong>Rp 10.000</strong>
                     </p>
-                    <button onclick="Modal.open('#ProductWebEcom01')" class="btn fav-btn" aria-label="Add to favourite list">
-                      <ion-icon name="heart-outline"></ion-icon>
-                    </button>
-                    <button class="btn" onclick="Modal.open('#ProductWebEcom01')">View Product</button>
+                    <a href="/m/demo/2022/todo-v1/">
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+                    </a>
+                    <button class="btn" onclick="Modal.open('#ProductTodoListV1')">View Product</button>
                   </div>
                 </div>
               </div>
@@ -478,566 +481,177 @@
         </div>
       </section>
 
+      <!-- FOOTER -->
 
-
-
-
-      <!-- 
-        - #GET START
-      -->
-
-      <section class="section get-start">
+      <footer class="footer">
         <div class="container">
 
-          <h2 class="h2 section-title">Get started with 4 simple steps</h2>
+          <div class="footer-top">
 
-          <ul class="get-start-list">
+            <div class="footer-brand">
+              <a href="/" class="logo">
+                <h1>Solity</h1>
+              </a>
 
-            <li>
-              <div class="get-start-card">
+              <p class="footer-text">
+                Cari Kebutuhan Website Mu Disini, Pembayaran Dengan Mudah & Terpercaya. Yuk Gunakan Solity Untuk Mencari
+                Source Code Yang Anda Ingin kan.
+              </p>
+            </div>
 
-                <div class="card-icon icon-1">
-                  <ion-icon name="person-add-outline"></ion-icon>
-                </div>
+            <ul class="footer-list">
 
-                <h3 class="card-title">Create a profile</h3>
+              <li>
+                <p class="footer-list-title">Company</p>
+              </li>
 
-                <p class="card-text">
-                  If you are going to use a passage of Lorem Ipsum, you need to be sure.
-                </p>
+              <li>
+                <a href="#" class="footer-link">About us</a>
+              </li>
 
-                <a href="#" class="card-link">Get started</a>
+              <li>
+                <a href="#" class="footer-link">Our blog</a>
+              </li>
 
-              </div>
-            </li>
+              <li>
+                <a href="#" class="footer-link">Contacts</a>
+              </li>
 
-            <li>
-              <div class="get-start-card">
+            </ul>
 
-                <div class="card-icon icon-2">
-                  <ion-icon name="car-outline"></ion-icon>
-                </div>
+            <ul class="footer-list">
 
-                <h3 class="card-title">Tell us what car you want</h3>
+              <li>
+                <p class="footer-list-title">Support</p>
+              </li>
 
-                <p class="card-text">
-                  Various versions have evolved over the years, sometimes by accident, sometimes on purpose
-                </p>
+              <li>
+                <a href="#" class="footer-link">Help center</a>
+              </li>
 
-              </div>
-            </li>
+              <li>
+                <a href="#" class="footer-link">Ask a question</a>
+              </li>
 
-            <li>
-              <div class="get-start-card">
+              <li>
+                <a href="#" class="footer-link">Privacy policy</a>
+              </li>
 
-                <div class="card-icon icon-3">
-                  <ion-icon name="person-outline"></ion-icon>
-                </div>
+              <li>
+                <a href="#" class="footer-link">Terms & conditions</a>
+              </li>
 
-                <h3 class="card-title">Match with seller</h3>
+            </ul>
 
-                <p class="card-text">
-                  It to make a type specimen book. It has survived not only five centuries, but also the leap into
-                  electronic
-                </p>
+            <ul class="footer-list">
 
-              </div>
-            </li>
+              <li>
+                <p class="footer-list-title">Source Code</p>
+              </li>
 
-            <li>
-              <div class="get-start-card">
+              <li>
+                <a href="#" class="footer-link">Bussines</a>
+              </li>
 
-                <div class="card-icon icon-4">
-                  <ion-icon name="card-outline"></ion-icon>
-                </div>
+              <li>
+                <a href="#" class="footer-link">Study</a>
+              </li>
 
-                <h3 class="card-title">Make a deal</h3>
+              <li>
+                <a href="#" class="footer-link">Individual</a>
+              </li>
 
-                <p class="card-text">
-                  There are many variations of passages of Lorem available, but the majority have suffered alteration
-                </p>
+              <li>
+                <a href="#" class="footer-link">Team</a>
+              </li>
 
-              </div>
-            </li>
+              <li>
+                <a href="#" class="footer-link">E-Commerce</a>
+              </li>
 
-          </ul>
+              <li>
+                <a href="#" class="footer-link">Admin</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Retail</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Wedding</a>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="footer-bottom">
+            <ul class="social-list">
+              <li>
+                <a href="https://www.instagram.com/solityid/" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+            </ul>
+
+            <p class="copyright">
+              &copy; 2022 <a href="../Store/">Solity</a>. All Rights Reserved
+            </p>
+          </div>
 
         </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #BLOG
-      -->
-
-      <section class="section blog" id="blog">
-        <div class="container">
-
-          <h2 class="h2 section-title">Our Blog</h2>
-
-          <ul class="blog-list has-scrollbar">
-
-            <li>
-              <div class="blog-card">
-
-                <figure class="card-banner">
-
-                  <a href="#">
-                    <img src="./assets/images/blog-1.jpg" alt="Opening of new offices of the company" loading="lazy"
-                      class="w-100">
-                  </a>
-
-                  <a href="#" class="btn card-badge">Company</a>
-
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3 card-title">
-                    <a href="#">Opening of new offices of the company</a>
-                  </h3>
-
-                  <div class="card-meta">
-
-                    <div class="publish-date">
-                      <ion-icon name="time-outline"></ion-icon>
-
-                      <time datetime="2022-01-14">January 14, 2022</time>
-                    </div>
-
-                    <div class="comments">
-                      <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
-
-                      <data value="114">114</data>
-                    </div>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="blog-card">
-
-                <figure class="card-banner">
-
-                  <a href="#">
-                    <img src="./assets/images/blog-2.jpg" alt="What cars are most vulnerable" loading="lazy"
-                      class="w-100">
-                  </a>
-
-                  <a href="#" class="btn card-badge">Repair</a>
-
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3 card-title">
-                    <a href="#">What cars are most vulnerable</a>
-                  </h3>
-
-                  <div class="card-meta">
-
-                    <div class="publish-date">
-                      <ion-icon name="time-outline"></ion-icon>
-
-                      <time datetime="2022-01-14">January 14, 2022</time>
-                    </div>
-
-                    <div class="comments">
-                      <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
-
-                      <data value="114">114</data>
-                    </div>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="blog-card">
-
-                <figure class="card-banner">
-
-                  <a href="#">
-                    <img src="./assets/images/blog-3.jpg" alt="Statistics showed which average age" loading="lazy"
-                      class="w-100">
-                  </a>
-
-                  <a href="#" class="btn card-badge">Cars</a>
-
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3 card-title">
-                    <a href="#">Statistics showed which average age</a>
-                  </h3>
-
-                  <div class="card-meta">
-
-                    <div class="publish-date">
-                      <ion-icon name="time-outline"></ion-icon>
-
-                      <time datetime="2022-01-14">January 14, 2022</time>
-                    </div>
-
-                    <div class="comments">
-                      <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
-
-                      <data value="114">114</data>
-                    </div>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="blog-card">
-
-                <figure class="card-banner">
-
-                  <a href="#">
-                    <img src="./assets/images/blog-4.jpg" alt="What´s required when renting a car?" loading="lazy"
-                      class="w-100">
-                  </a>
-
-                  <a href="#" class="btn card-badge">Cars</a>
-
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3 card-title">
-                    <a href="#">What´s required when renting a car?</a>
-                  </h3>
-
-                  <div class="card-meta">
-
-                    <div class="publish-date">
-                      <ion-icon name="time-outline"></ion-icon>
-
-                      <time datetime="2022-01-14">January 14, 2022</time>
-                    </div>
-
-                    <div class="comments">
-                      <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
-
-                      <data value="114">114</data>
-                    </div>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="blog-card">
-
-                <figure class="card-banner">
-
-                  <a href="#">
-                    <img src="./assets/images/blog-5.jpg" alt="New rules for handling our cars" loading="lazy"
-                      class="w-100">
-                  </a>
-
-                  <a href="#" class="btn card-badge">Company</a>
-
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3 card-title">
-                    <a href="#">New rules for handling our cars</a>
-                  </h3>
-
-                  <div class="card-meta">
-
-                    <div class="publish-date">
-                      <ion-icon name="time-outline"></ion-icon>
-
-                      <time datetime="2022-01-14">January 14, 2022</time>
-                    </div>
-
-                    <div class="comments">
-                      <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
-
-                      <data value="114">114</data>
-                    </div>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-    </article>
-  </main>
-
-
-
-
-
-  <!-- 
-    - #FOOTER
-  -->
-
-  <footer class="footer">
-    <div class="container">
-
-      <div class="footer-top">
-
-        <div class="footer-brand">
-          <a href="#" class="logo">
-            <img src="./assets/images/logo.svg" alt="Ridex logo">
-          </a>
-
-          <p class="footer-text">
-            Search for cheap rental cars in New York. With a diverse fleet of 19,000 vehicles, Waydex offers its
-            consumers an
-            attractive and fun selection.
-          </p>
-        </div>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">Company</p>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">About us</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Pricing plans</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Our blog</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Contacts</a>
-          </li>
-
-        </ul>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">Support</p>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Help center</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Ask a question</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Privacy policy</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Terms & conditions</a>
-          </li>
-
-        </ul>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">Neighborhoods in New York</p>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Manhattan</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Central New York City</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Upper East Side</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Queens</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Theater District</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Midtown</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">SoHo</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Chelsea</a>
-          </li>
-
-        </ul>
-
-      </div>
-
-      <div class="footer-bottom">
-
-        <ul class="social-list">
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-skype"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="mail-outline"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-        <p class="copyright">
-          &copy; 2022 <a href="../Store/">Solity</a>. All Rights Reserved
-        </p>
-
-      </div>
-
-    </div>
-  </footer>
-
-  <!-- MODALS -->
-  <div class="product" id="ProductWebEcom01" onclick="Modal.close(event)" data-backdrop data-modal-close>
-    <section class="modal">
-      <header class="modal--header">
-        <h3 class="modal--title">Modal 1</h3>
-        <div class="button" data-type="icon" onclick="Modal.close(event)" data-modal-close><svg class="icon icon-clear"
-            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-            <path
-              d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
-          </svg></div>
-      </header>
-      <div class="modal--content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex fugiat explicabo similique assumenda! Corporis
-          harum, necessitatibus dolorem dolorum ex? Delectus dolores voluptas a rem, inventore facere ea quisquam
-          suscipit possimus.</p>
-      </div>
-      <footer class="modal--footer">
-        <button onclick="Modal.close(event)" data-modal-close class="solity">Close modal</button>
-        <button onclick="Modal.change('#ProductWebEcom01-Pay', event)" class="solity">Payment</button>
       </footer>
-    </section>
-  </div>
 
-  <div class="product" id="ProductWebEcom01-Pay" data-backdrop>
-    <form action="" class="modal">
-      <header class="modal--header">
-        <h3 class="modal--title">Payment</h3>
-        <div class="button" data-type="icon" onclick="Modal.close(event)" data-modal-close><svg class="icon icon-clear"
-            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-            <path
-              d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
-          </svg></div>
-      </header>
-      <div class="modal--content">
-        <div class="form-control">
-          <label for="username">Username</label>
-          <input type="text" placeholder="florinpop17" id="username" />
-          <i class="fas fa-check-circle"></i>
-          <i class="fas fa-exclamation-circle"></i>
-          <small>Error message</small>
-        </div>
-        <div class="form-control">
-          <label for="username">Email</label>
-          <input type="email" placeholder="a@florin-pop.com" id="email" />
-          <i class="fas fa-check-circle"></i>
-          <i class="fas fa-exclamation-circle"></i>
-          <small>Error message</small>
-        </div>
-        <div class="form-control">
-          <label for="username">Password</label>
-          <input type="password" placeholder="Password" id="password" />
-          <i class="fas fa-check-circle"></i>
-          <i class="fas fa-exclamation-circle"></i>
-          <small>Error message</small>
-        </div>
-        <div class="form-control">
-          <label for="username">Password check</label>
-          <input type="password" placeholder="Password two" id="password2" />
-          <i class="fas fa-check-circle"></i>
-          <i class="fas fa-exclamation-circle"></i>
-          <small>Error message</small>
-        </div>
+      <!-- Modals Todo List V1 -->
+      <div class="product" id="ProductTodoListV1" onclick="Modal.close(event)" data-backdrop data-modal-close>
+        <section class="modal">
+          <header class="modal--header">
+            <h3 class="modal--title">Todo List V1</h3>
+            <div class="button" data-type="icon" onclick="Modal.close(event)" data-modal-close><svg
+                class="icon icon-clear" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path
+                  d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
+              </svg></div>
+          </header>
+          <div class="modal--content">
+            <div class="featured-car-card">
+              <figure class="card-banner">
+                <img src="../../assets/images/product/2022/todo-v1/Solity.png" onclick="Modal.open('#ProductWebEcom01')"
+                  alt="Solity" loading="lazy" width="440" height="300" class="w-100">
+              </figure>
+            </div>
+            <p style="padding-top: 10px;">Todo List V1 Menggunakan Penyimpanan Local Storage Pada Website. Dengan
+              Tampilan
+              Yang Mobile Friendly (Responsive).</p>
+
+            <p style="padding-top: 30px;">Code Yang Di Gunakan :
+              <li>&raquo; HTML</li>
+              <li>&raquo; CSS</li>
+              <li>&raquo; JavaScript</li>
+            </p>
+          </div>
+          <footer class="modal--footer">
+            <button onclick="ProductTodoListV1Product()" class="solity">Payment</button>
+          </footer>
+        </section>
       </div>
-      <footer class="modal--footer">
-        <button type="submit">Submit</button>
-      </footer>
-    </form>
-  </div>
+      <!-- Modals Todo List V1 -->
 
 
+      <div id="progress">
+        <span id="progress-value">
+          <ion-icon name="arrow-up-outline"></ion-icon>
+        </span>
+      </div>
 
-  <!--  custom js link -->
-  <script src="../../assets/js/script.js"></script>
+      <!--  custom js link -->
+      <script src="../../assets/js/script.js"></script>
+      <!--  custom js link -->
+      <script src="../../assets/js/page-to-form-payment.js"></script>
 
-  <!-- 
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <!--  ionicon link -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 

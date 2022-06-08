@@ -1,14 +1,14 @@
 // Your web app's Firebase configuration ENTER YOUR FIREBASE DETAILS HERE
 
 var firebaseConfig = {
-    apiKey: "AIzaSyCSdoYwAd5IHNPXO1a5OCSiYWpORLUzyPI",
-    authDomain: "fungamesid.firebaseapp.com",
-    databaseURL: "https://fungamesid-default-rtdb.firebaseio.com",
-    projectId: "fungamesid",
-    storageBucket: "fungamesid.appspot.com",
-    messagingSenderId: "288362351127",
-    appId: "1:288362351127:web:1def18b6d7e9695d982a52",
-    measurementId: "G-HGSY5WTSGZ"
+    apiKey: "AIzaSyCS2tZedRisKQFXwPNC0jQBQpgI2c4Au3o",
+    authDomain: "solityid.firebaseapp.com",
+    databaseURL: "https://solityid-default-rtdb.firebaseio.com",
+    projectId: "solityid",
+    storageBucket: "solityid.appspot.com",
+    messagingSenderId: "104352057353",
+    appId: "1:104352057353:web:e25f4d0c9ee5da730810d8",
+    measurementId: "G-F9XDBPK1R3"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
@@ -23,17 +23,17 @@ var message_value = document.querySelector('.message');
 // check if user is logged in or not
 firebase.auth().onAuthStateChanged(function(user) {
     if (user) {
-        if(window.location.pathname != '/../../2022/Project/'){
-            window.location = '/../../2022/Project/';
+        if(window.location.pathname != '/'){
+            window.location = '/';
         }
     } else {
-        if(window.location.pathname === '/../../2022/Project/'){
+        if(window.location.pathname === '/'){
             window.location = 'index.html';
         }
     }
 });
 
-if(window.location.pathname != '/../../2022/Project/'){
+if(window.location.pathname != '/'){
     // verification captcha setting 
     window.recaptchaVerifier = new firebase.auth.RecaptchaVerifier('sign-in-button', {
         'size': 'invisible',
@@ -84,7 +84,7 @@ function showErrorMessage(erro_message){
             confirmationResult.confirm(otp_number).then((result) => {
                 // User signed in successfully.
                 const user = result.user;
-                window.location = '../../2022/Project/';
+                window.location = '/';
             }).catch((error) => {
                 showErrorMessage(error.message);
             });
