@@ -1,6 +1,6 @@
 {
-    "name": "Dev'Coffee",
-    "short_name": "DevCoffee",
+    "name": "Solity Admin",
+    "short_name": "Solity Admin",
     "start_url": "../admin-share-link/",
     "display": "standalone",
     "background_color": "#fdfdfd",

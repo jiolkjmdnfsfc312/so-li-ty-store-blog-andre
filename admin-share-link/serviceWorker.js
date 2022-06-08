@@ -1,4 +1,4 @@
-const staticDevCoffee = "dev-coffee-site-v1"
+const staticDevCoffee = "solity-v2"
 const assets = [
   "/",
   "../../index.html",
