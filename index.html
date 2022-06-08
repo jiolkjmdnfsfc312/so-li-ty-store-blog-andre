@@ -8,15 +8,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="all" />
-  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/images/icon/57x57/solity-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/images/icon/60x60/solity-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/images/icon/72x72/solity-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/images/icon/76x76/solity-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/images/icon/114x114/solity-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/images/icon/120x120/solity-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/images/icon/144x144/solity-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/images/icon/152x152/solity-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/icon/180x180/solity-icon-180x180.png">
   <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
   <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
   <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
@@ -31,7 +31,7 @@
   <meta name="publisher" content="Solity">
 
   <meta name="description" content="Solity - Website Penyedia Source Code Website Yang Dapat Kalian Beli Dengan Harga Terjangkau.">
-  <meta property="og:url" content="https://www.dicoding.com">
+  <meta property="og:url" content="https://www.solity.my.id/">
   <meta property="og:title" content="Solity - Penyedia Source Code Website"/>
   <meta property="og:description" content="Solity - Website Penyedia Source Code Website Yang Dapat Kalian Beli Dengan Harga Terjangkau."/>
   <meta property="og:image" content="https://dicoding-web-img.sgp1.cdn.digitaloceanspaces.com/original/commons/homepage-hero.png">
@@ -663,7 +663,7 @@
         </ul>
 
         <p class="copyright">
-          &copy; 2022 <a href="../Store/">Solity</a>. All Rights Reserved
+          &copy; 2022 <a href="/">Solity</a>. All Rights Reserved
         </p>
       </div>
 
@@ -718,36 +718,6 @@
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-  <script>
-    setInterval(function(){
-            var status = navigator.onLine ? 'Your internet connection is back' : 'No Internet Connection!';/* check whether online */
-            document.getElementById('internetStatus').innerHTML = status; /* display 'anchor' somewhere */
-        
-            if(status ==  'No Internet Connection!') {
-                var internetStatus = document.getElementsByTagName("a");
-                for (var i = 0; i < internetStatus.length; i++) {
-                  internetStatus[i].onclick = function(e) {event.preventDefault();};
-                };
-            }
-        }, 400);
-
-
-    var myDate = new Date();
-    var hrs = myDate.getHours();
-
-    var greet;
-
-    if (hrs < 9)
-      greet = 'Buka';
-
-    else 
-    alert('Halo Kak, Toko Kami Sedang Tutup Bisa Lanjutkan Pembelian Pada Jam Buka Toko.')
-    if (hrs >= 18 && hrs <= 24)
-      greet = 'Tutup';
-
-    document.getElementById('welcome').innerHTML =
-      '<b>' + greet + '</b> ';
-  </script>
 </body>
 
 </html>
