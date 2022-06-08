@@ -330,6 +330,7 @@ button, a { transition: var(--transition); }
   font-size: var(--fs-6);
   padding-block: 5px;
   margin-bottom: 15px;
+  cursor: none;
 }
 
 .navbar-link:is(:hover, :focus) { color: var(--carolina-blue); }
@@ -416,10 +417,10 @@ button, a { transition: var(--transition); }
 
 
 /*-----------------------------------*\
-  #FEATURED CAR
+  #FEATURED SOLITY
 \*-----------------------------------*/
 
-.featured-car .title-wrapper {
+.featured-solity .title-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -428,7 +429,7 @@ button, a { transition: var(--transition); }
   margin-bottom: 30px;
 }
 
-.featured-car-link {
+.featured-solity-link {
   display: flex;
   align-items: center;
   gap: 5px;
@@ -437,24 +438,24 @@ button, a { transition: var(--transition); }
   cursor: none;
 }
 
-.featured-car-link span { transition: var(--transition); }
+.featured-solity-link span { transition: var(--transition); }
 
-.featured-car-link:is(:hover, :focus) span { color: var(--space-cadet); }
+.featured-solity-link:is(:hover, :focus) span { color: var(--space-cadet); }
 
-.featured-car-link ion-icon {
+.featured-solity-link ion-icon {
   margin-top: 3px;
   transition: var(--transition);
 }
 
-.featured-car-link:is(:hover, :focus) ion-icon { color: var(--carolina-blue); }
+.featured-solity-link:is(:hover, :focus) ion-icon { color: var(--carolina-blue); }
 
-.featured-car-list {
+.featured-solity-list {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   gap: 30px;
 }
 
-.featured-car-card {
+.featured-solity-card {
   background: var(--gradient);
   border: 1px solid var(--white);
   border-radius: var(--radius-18);
@@ -462,21 +463,21 @@ button, a { transition: var(--transition); }
   box-shadow: var(--shadow-1);
 }
 
-.featured-car-card .card-banner {
+.featured-solity-card .card-banner {
   background: hsla(0, 0%, 0%, 0.2);
   aspect-ratio: 3 / 2;
   border-radius: var(--radius-18);
   overflow: hidden;
 }
 
-.featured-car-card .card-banner > img {
+.featured-solity-card .card-banner > img {
   height: 100%;
   object-fit: cover;
 }
 
-.featured-car-card .card-content { padding: 20px 10px 10px; }
+.featured-solity-card .card-content { padding: 20px 10px 10px; }
 
-.featured-car-card .card-title-wrapper {
+.featured-solity-card .card-title-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -484,9 +485,9 @@ button, a { transition: var(--transition); }
   margin-bottom: 15px;
 }
 
-.featured-car-card .card-title { width: calc(100% - 60px); }
+.featured-solity-card .card-title { width: calc(100% - 60px); }
 
-.featured-car-card .card-title > a {
+.featured-solity-card .card-title > a {
   color: inherit;
   width: 100%;
   white-space: nowrap;
@@ -494,9 +495,9 @@ button, a { transition: var(--transition); }
   text-overflow: ellipsis;
 }
 
-.featured-car-card .card-title > a:is(:hover, :focus) { color: var(--carolina-blue); }
+.featured-solity-card .card-title > a:is(:hover, :focus) { color: var(--carolina-blue); }
 
-.featured-car-card .date {
+.featured-solity-card .date {
   font-family: var(--ff-nunito);
   font-size: var(--fs-10);
   font-weight: var(--fw-600);
@@ -505,7 +506,7 @@ button, a { transition: var(--transition); }
   border-radius: var(--radius-14);
 }
 
-.featured-car-card .card-list {
+.featured-solity-card .card-list {
   display: grid;
   grid-template-columns: 1fr;
   gap: 15px;
@@ -514,24 +515,24 @@ button, a { transition: var(--transition); }
   margin-bottom: 15px;
 }
 
-.featured-car-card .card-list-item {
+.featured-casolity-card .card-list-item {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-.featured-car-card .card-list-item ion-icon {
+.featured-solity-card .card-list-item ion-icon {
   font-size: 20px;
   color: var(--carolina-blue);
   --ionicon-stroke-width: 38px;
 }
 
-.featured-car-card .card-item-text {
+.featured-solity-card .card-item-text {
   color: var(--independence);
   font-size: var(--fs-6);
 }
 
-.featured-car-card .card-price-wrapper {
+.featured-solity-card .card-price-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -539,23 +540,23 @@ button, a { transition: var(--transition); }
   gap: 15px;
 }
 
-.featured-car-card .card-price {
+.featured-solity-card .card-price {
   font-family: var(--ff-nunito);
   font-size: var(--fs-6);
   color: var(--space-cadet);
 }
 
-.featured-car-card .card-price strong {
+.featured-solity-card .card-price strong {
   font-size: var(--fs-10);
   font-weight: var(--fw-400);
 }
 
-.featured-car-card .btn:last-child {
+.featured-solity-card .btn:last-child {
   --height: 36px;
   min-width: 100%;
 }
 
-.featured-car-card .fav-btn {
+.featured-solity-card .fav-btn {
   --background: var(--beau-blue);
   --color: var(--blue-jeans);
   --height: 36px;
@@ -563,9 +564,9 @@ button, a { transition: var(--transition); }
   --shadow-2: none;
 }
 
-.featured-car-card .fav-btn ion-icon { font-size: 18px; }
+.featured-solity-card .fav-btn ion-icon { font-size: 18px; }
 
-.featured-car-card .fav-btn:is(:hover, :focus) {
+.featured-solity-card .fav-btn:is(:hover, :focus) {
   --background: var(--lavender-blush);
   --color: var(--red-salsa);
 }
@@ -864,11 +865,11 @@ button, a { transition: var(--transition); }
    * FEATURED CAR
    */
 
-  .featured-car-card .card-list { grid-template-columns: 1fr 1fr; }
+  .featured-solity-card .card-list { grid-template-columns: 1fr 1fr; }
 
-  .featured-car-card .card-price { margin-right: auto; }
+  .featured-solity-card .card-price { margin-right: auto; }
 
-  .featured-car-card .btn:last-child {
+  .featured-solity-card .btn:last-child {
     min-width: max-content;
     padding-inline: 15px;
   }
@@ -1017,10 +1018,10 @@ button, a { transition: var(--transition); }
 
 
   /**
-   * FEATURED CAR
+   * FEATURED solity
    */
 
-  .featured-car-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .featured-solity-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 
 
 
@@ -1181,10 +1182,10 @@ button, a { transition: var(--transition); }
 
 
   /**
-   * FEATURED CAR 
+   * FEATURED solity
    */
 
-  .featured-car-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .featured-solity-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 
 
 
