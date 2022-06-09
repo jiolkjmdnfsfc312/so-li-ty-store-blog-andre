@@ -516,7 +516,7 @@ button, a { transition: var(--transition); }
 }
 
 .featured-solity-card .card-list-item {
-  display: flex;
+  display: flex
   align-items: center;
   gap: 8px;
 }
