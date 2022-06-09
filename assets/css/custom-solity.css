@@ -1,0 +1,246 @@
+/* Copy Text Modal */
+.label {
+    padding: 10px;
+    font-size: 18px;
+    color: #111;
+  }
+
+  .copy-text {
+    position: relative;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    display: flex;
+  }
+
+  .copy-text input.text {
+    padding: 10px;
+    font-size: 18px;
+    color: #555;
+    border: none;
+    outline: none;
+  }
+
+  .copy-text button {
+    padding: 10px;
+    background: #5784f5;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .copy-text button:active {
+    background: #809ce2;
+  }
+
+  .copy-text button:before {
+    content: "Copied";
+    position: absolute;
+    top: -45px;
+    right: 0px;
+    background: #5c81dc;
+    padding: 8px 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    display: none;
+  }
+
+  .copy-text button:after {
+    content: "";
+    position: absolute;
+    top: -20px;
+    right: 25px;
+    width: 10px;
+    height: 10px;
+    background: #5c81dc;
+    transform: rotate(45deg);
+    display: none;
+  }
+
+  .copy-text.active button:before,
+  .copy-text.active button:after {
+    display: block;
+  }
+  /* Copy Text Modal */
+
+  /* Share Modal */
+  #social-test {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  #social-test .social {
+    padding-left: 0px;
+  }
+
+  #social-test li {
+    display: inline-block;
+  }
+
+  #social-test li a {
+    color: #1d1d1d;
+    border-radius: 6px;
+    list-style-type: none;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    padding: 1%;
+    border: 1px solid #1d1d1d;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    transition: ease 0.3s;
+  }
+
+  #social-test li a:hover {
+    color: #18a6fc;
+    border: 1px solid rgbargb(24, 166, 252);
+  }
+
+  .social:hover>li {
+    opacity: 0.5;
+  }
+
+  .social:hover>li:hover {
+    opacity: 1;
+  }
+  /* Share Modal */
+
+  /* Slider */
+  #slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+#slider #line {
+  height: 5px;
+  background: rgba(0,0,0,0.5);
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#slider #dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+#slider #dots li {
+  transition: 0.3s;
+  list-style-type: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  background: rgba(0,0,0,0.5);
+  margin: 0 0.25em;
+  cursor: pointer;
+}
+
+#slider #dots li:hover,
+#slider #dots li.active {
+  background: white;
+}
+
+@keyframes line {
+
+  0% {width: 0%;}
+  100% {width: 100%;}
+
+}
+
+#slider #back,
+#slider #forword {
+  width: 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.3s;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  color: white;
+  font-weight: 700;
+  font-size: 2rem;
+  background: -moz-linear-gradient(left,  rgba(255,255,255,0.75) 0%, rgba(255,255,255,0) 100%);
+  background: -webkit-linear-gradient(left,  rgba(255,255,255,0.75) 0%,rgba(255,255,255,0) 100%);
+  background: linear-gradient(to right,  rgba(255,255,255,0.75) 0%,rgba(255,255,255,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfffffff', endColorstr='#00ffffff',GradientType=1 );
+}
+
+#slider #forword {
+  left: auto;
+  right: 0;
+  background: -moz-linear-gradient(left,  rgba(255,255,255,0) 0%, rgba(255,255,255,0.75) 100%);
+  background: -webkit-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.75) 100%);
+  background: linear-gradient(to right,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.75) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#bfffffff',GradientType=1 );
+}
+
+#slider:hover #back,
+#slider:hover #forword {
+  opacity: 0.7;
+}
+
+ul#move {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  background: gray;
+  margin-right: 100%;
+}
+
+
+ul#move li {
+  transition: 0.6s;
+  min-width: 100%;
+  color: white;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul#move li img {
+  width: 100%;
+}
+
+ul#move li:nth-child(1) {
+  background: #657765;
+}
+
+ul#move li:nth-child(2) {
+  background: #456174;
+}
+
+ul#move li:nth-child(3) {
+  background: #984;
+}
+
+ul#move li:nth-child(4) {
+  background: #445566;
+}
+
+ul#move li:nth-child(5) {
+  background: #744674;
+}
+/* Slider */
