@@ -515,7 +515,7 @@ button, a { transition: var(--transition); }
   margin-bottom: 15px;
 }
 
-.featured-casolity-card .card-list-item {
+.featured-solity-card .card-list-item {
   display: flex;
   align-items: center;
   gap: 8px;
