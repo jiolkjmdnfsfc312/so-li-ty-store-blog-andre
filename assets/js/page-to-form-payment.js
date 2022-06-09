@@ -6,3 +6,12 @@ function ProductTodoListV1() {
 function ProductTodoListV1Product() {
 	location.href = "/m/payment/2022/todo-v1/";
 }
+
+/* Product Weather App */
+function ProductWeatherApp() {
+	location.href = "m/payment/2022/weather-app/";
+}
+
+function ProductWeatherAppProduct() {
+	location.href = "/m/payment/2022/weather-app/";
+}
