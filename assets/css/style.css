@@ -1683,3 +1683,12 @@ h4 {
   font-size: 22px;
   color: #001a2e;
 }
+
+.disabledsolity {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #cc0000;
+}

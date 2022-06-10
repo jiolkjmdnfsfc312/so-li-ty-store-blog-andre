@@ -52,16 +52,17 @@
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <style>
-    .disabledsolity {
-        -webkit-user-select: none;
-        -webkit-touch-callout: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-        color: #cc0000;
-      }
-  </style>
+  
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+  <script>
+    window.OneSignal = window.OneSignal || [];
+    OneSignal.push(function() {
+      OneSignal.init({
+        appId: "1af95d92-13a2-46c7-a268-89bf76aa5fbc",
+      });
+    });
+  </script>
+
 </head>
 
 <body>
@@ -305,6 +306,7 @@
 
         </div>
       </section>
+
 
 
   <!-- FOOTER -->
