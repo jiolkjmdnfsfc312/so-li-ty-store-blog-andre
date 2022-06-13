@@ -1,0 +1,84 @@
+.container-404 {
+    display: table;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    width: 100%;
+  
+  }
+  
+  .content-404{
+    display: table-cell;
+    font-size: 22px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 40px 30px;
+  }
+  
+  .inner-wrapper{
+    display: inline-block;
+  }
+  
+  .top-title{
+    color: #4384F5;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 25px;
+  }
+  
+  .main-title{
+    line-height: 0;
+    font-size: 90px;
+    font-weight: 800;
+    color: #4384F5;
+    cursor: none;
+  }
+  
+  .svg-wrap{
+    display: inline-block;
+    font-size: 0;
+    vertical-align: super;
+  }
+  
+  #lego{
+    padding: 5px;
+  }
+  
+  .blurb-404{
+    margin-top: 30px;
+    color: #B6BECC;
+  }
+  
+  .lego-btn{
+    background: #4384F5;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 25px;
+  }
+  
+  /* ==========================================================================
+     Media Queries
+     ========================================================================== */
+  
+  
+  
+  @media only screen and (max-width: 440px){
+  
+    .main-title{
+      font-size: 60px;
+    }
+  
+    #lego{
+      width: 50px;
+      height: 55px;
+      padding: 10px 5px;
+    }
+    
+    .blurb-404,
+    .lego-btn{
+      font-size: 18px;
+    }
+  
+  
+  }

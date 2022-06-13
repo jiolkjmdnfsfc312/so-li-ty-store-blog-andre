@@ -15,3 +15,12 @@ function ProductWeatherApp() {
 function ProductWeatherAppProduct() {
 	location.href = "/m/payment/2022/weather-app/";
 }
+
+/* Product Chat App */
+function ProductChatApp() {
+	location.href = "m/404/";
+}
+
+function ProductWeatherAppProduct() {
+	location.href = "/m/404//";
+}

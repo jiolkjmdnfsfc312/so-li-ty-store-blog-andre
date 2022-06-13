@@ -30,7 +30,7 @@
     border: none;
     outline: none;
     border-radius: 10px;
-    cursor: pointer;
+    cursor: none;
   }
 
   .copy-text button:active {
