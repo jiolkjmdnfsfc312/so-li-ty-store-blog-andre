@@ -21,6 +21,6 @@ function ProductChatApp() {
 	location.href = "m/404/";
 }
 
-function ProductWeatherAppProduct() {
-	location.href = "/m/404//";
+function ProductChatAppProduct() {
+	location.href = "../404/";
 }
