@@ -8,14 +8,17 @@ class Library {
                 <i class="fa-solid fa-chevron-left"></i>
             </button>
             <div class="card link-fa">
-                <h3 class="title">FONT AWESOME PRO v6.1.1</h3>
-                <p class="desc">Salinan Font Awesome Pro (Stylesheet || Script)</p>
-                <span>Link: <a href="https://devanka761.github.io/font-awesome-pro/" target="_blank">https://devanka761.github.io/font-awesome-pro/</a></span>
+                <h3 class="title">By Andre</h3>
+                <p class="desc">2022</p>
+                <span>Link: <a href="https://www.solity.my.id/" target="_blank">https://www.solity.my.id/</a></span>
             </div>
             <div class="card link-notipin">
-                <h3 class="title">NOTIPIN</h3>
-                <p class="desc">Interaksi && Alert || Confirm || Prompt</p>
-                <span>Link: <a href="https://github.com/devanka761/notipin" target="_blank">https://github.com/devanka761/notipin</a></span>
+                <h3 class="title">Storage</h3>
+                <p class="desc">Firebase</p>
+            </div>
+            <div class="card link-notipin">
+                <h3 class="title">Versi</h3>
+                <p class="desc">1.0.0</p>
             </div>
         `);
     }

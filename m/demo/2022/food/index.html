@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./styles/Library.css">
     <link rel="stylesheet" href="./styles/wide.css">
     <title>Backend Admin Solity</title>
+    <script src="https://js.pusher.com/beams/1.0/push-notifications-cdn.js"></script>
 </head>
 
 <body>
@@ -53,6 +54,16 @@
     <script src="./scripts/user/Library.js"></script>
     <script src="./scripts/user/Tema.js"></script>
     <script src="https://cdn.statically.io/gh/devanka761/notipin@main/src/all.min.js"></script>
+    <script>
+        const beamsClient = new PusherPushNotifications.Client({
+          instanceId: '6f508e00-629d-4b31-b9f4-fd9f2dabf4dd',
+        });
+      
+        beamsClient.start()
+          .then(() => beamsClient.addDeviceInterest('hello'))
+          .then(() => console.log('Successfully registered and subscribed!'))
+          .catch(console.error);
+      </script>
 </body>
 
 </html>

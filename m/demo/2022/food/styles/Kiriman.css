@@ -18,7 +18,7 @@
     flex-direction: column;
     width: calc(100% - 20px);
     max-width: 500px;
-    padding: 10px;
+    padding-top: 50px;
     border-bottom: 1px solid var(--a3);
 }
 .ListChat .Post-Card .atas {
