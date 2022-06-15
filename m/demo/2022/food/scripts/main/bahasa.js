@@ -1,9 +1,4 @@
 window.Bahasa = {
-    /* 
-        BAGI TEMEN-TEMEN YANG INGIN GANTI TEKSNYA,
-        DARI PADA BINGUNG CARI SATU PER SATU DI FILE JAVACRIPTNYA,
-        LANGSUNG AJA TEMUKAN DI SINI DAN GANTI TEKSNYA.
-    */
     "indonesia": {
         code: "id",
         dashboard: {
@@ -225,10 +220,3 @@ window.Bahasa = {
         },
     }
 }
-
-/*
-    SUBSCRIBE: DEVANKA 761 
-    https://www.youtube.com/c/RG761
-
-    IG: " @dvnkz_ "
-*/

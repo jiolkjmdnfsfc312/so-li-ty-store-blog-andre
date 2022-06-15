@@ -46,10 +46,3 @@ window.onresize = () => { // LISTENER APABILA LAYARNYA DIRESIZE
         }
     }
 }
-
-/*
-    SUBSCRIBE: DEVANKA 761 
-    https://www.youtube.com/c/RG761
-
-    IG: " @dvnkz_ "
-*/

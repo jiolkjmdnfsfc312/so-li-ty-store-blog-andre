@@ -18,10 +18,3 @@ class Memuat {
         this.container.appendChild(this.element);
     }
 }
-
-/*
-    SUBSCRIBE: DEVANKA 761 
-    https://www.youtube.com/c/RG761
-
-    IG: " @dvnkz_ "
-*/

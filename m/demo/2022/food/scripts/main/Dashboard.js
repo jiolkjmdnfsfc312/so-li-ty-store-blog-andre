@@ -13,7 +13,7 @@ class Dashboard {
         this.header = document.createElement("div");
         this.header.classList.add("header");
         this.header.innerHTML = (`
-            <div class="judul">ByAndre</div>
+            <div class="judul">Solity</div>
             <div class="opsi">
                 <div class="opsiBtn">
                     <button class="cari">
@@ -264,10 +264,3 @@ class Dashboard {
         });
     }
 }
-
-/*
-    SUBSCRIBE: DEVANKA 761 
-    https://www.youtube.com/c/RG761
-
-    IG: " @dvnkz_ "
-*/
