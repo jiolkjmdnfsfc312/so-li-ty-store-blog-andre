@@ -1,233 +1,95 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-	<meta charset="UTF-8">
-	<meta name="google-site-verification" content="5dJqRpk-8CCskQPA1525lwRFSFZ--CiHVR6i981GY3A" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="robots" content="all" />
-	<link rel="apple-touch-icon" sizes="57x57" href="../../assets/images/icon/57x57/solity-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="../../assets/images/icon/60x60/solity-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="../../assets/images/icon/72x72/solity-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="../../assets/images/icon/76x76/solity-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="../../assets/images/icon/114x114/solity-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="../../assets/images/icon/120x120/solity-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="../../assets/images/icon/144x144/solity-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="../../assets/images/icon/152x152/solity-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="../../assets/images/icon/180x180/solity-icon-180x180.png">
-	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
-	<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
-	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-	<meta name="msapplication-TileColor" content="#2d3e50">
-	<meta name="msapplication-TileImage" content="/mstile-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-  
-	<meta name="author" content="Solity">
-	<meta name="publisher" content="Solity">
-  
-	<meta name="description"
-	  content="Solity - Website Penyedia Source Code Website Yang Dapat Kalian Beli Dengan Harga Terjangkau.">
-	<meta property="og:url" content="https://www.solity.my.id/">
-	<meta property="og:title" content="Solity - Penyedia Source Code Website" />
-	<meta property="og:description"
-	  content="Solity - Website Penyedia Source Code Website Yang Dapat Kalian Beli Dengan Harga Terjangkau." />
-	<meta property="og:image" content="https://www.solity.my.id/assets/images/logo/solity.png">
-	<meta property="og:site_name" content="Solity">
-	<meta property="og:ttl" content="3600">
-  <title>CodePen - Form Design</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-<link rel="stylesheet" href="./style.css">
+<html lang="en">
 
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<body>
-	<!-- Form Wrapper -->
-	<form id="form-wrapper">
-		<div id="form-left-wrapper">
-			<div id="form-tab-menu">
-				<div class="tab-menu-item current shipping-tab">Shipping</div>
-				<div class="tab-menu-item payment-tab">Payment</div>
-				<div class="tab-menu-item confirmation-tab">Confirmation</div>
-			</div>
-			<!-- Body of the Form -->
-			<div id="form-body">
-				<div id="shipping-body">
-					<div id="contact-details">
-						<div class='form-input input-small'>
-							<label>First name ship</label><br/>
-							<input type='text' name='firstname' placeholder='First Name' id='firstname-input' class='name-input'/>
-						</div>
-						<div class='form-input input-small'>
-							<label>Last name</label><br/>
-							<input type='text' name='lastname' placeholder='Last Name' id='lastname-input' class='name-input'/>
-						</div>
-						<div class='form-input input-small'>
-							<label>E-mail</label><br/>
-							<input type='email' name='email' placeholder='E-Mail Address' id='email-input' class='email-input'/>
-						</div>
-					</div>
-					<div class='hr'></div>
-					<div id="Address-details">
-						<div class='form-input input-small'>
-							<label>Contact Number</label><br/>
-							<input type='number' name='company' placeholder='Contact Number' id='contact-input' class='number-input'/>
-						</div>
-						<div class='form-input input-medium'>
-							<label>Street Address</label><br/>
-							<input type='text' name='address' placeholder='Street Address' id='address-input' class='address-input'/>
-						</div>
-						<!-- Line Break -->
-						<div class='form-input input-small'>
-							<label>Country</label><br/>
-							<input type='text' name='country' placeholder='Country' id='country-input' class='country-input'/>
-						</div>
-						<div class='form-input input-small'>
-							<label>City</label><br/>
-							<input type='text' name='city' placeholder='City' id='city-input' class='city-input'/>
-						</div>
-						<div class='form-input input-small'>
-							<label>Post Code</label><br/>
-							<input type='number' name='postcode' placeholder='Post Code' id='postcode-input' class='postcode-input'/>
-						</div>
-						<div class='hr' style='margin-bottom: 5px;'></div>
-						<div class='form-input-checkbox'>
-							<input type="checkbox" id="shipping-checkbox"/> My shipping and billing information is the same.
-						</div>
-					</div>
-					<div id="form-submit">
-						<input type='submit' value='Next'/>
-					</div>
-				</div>
-				<div id="payment-body">
-					<div id="contact-details">
-						<div class='form-input input-small'>
-							<label>First name paym</label><br/>
-							<input type='text' name='firstname' placeholder='First Name' id='firstname-input'/>
-						</div>
-						<div class='form-input input-small'>
-							<label>Last name</label><br/>
-							<input type='text' name='lastname' placeholder='Last Name' id='lastname-input'/>
-						</div>
-						<div class='form-input input-small'>
-							<label>E-mail</label><br/>
-							<input type='email' name='email' placeholder='E-Mail Address' id='email-input'/>
-						</div>
-					</div>
-					<div class='hr'></div>
-					<div id="Address-details">
-						<div class='form-input input-small'>
-							<label>Contact Number</label><br/>
-							<input type='number' name='company' placeholder='Contact Number' id='contact-input'/>
-						</div>
-						<div class='form-input input-medium'>
-							<label>Street Address</label><br/>
-							<input type='text' name='address' placeholder='Street Address' id='address-input'/>
-						</div>
-						<!-- Line Break -->
-						<div class='form-input input-small'>
-							<label>Country</label><br/>
-							<input type='text' name='country' placeholder='Country' id='country-input'/>
-						</div>
-						<div class='form-input input-small'>
-							<label>City</label><br/>
-							<input type='text' name='city' placeholder='City' id='city-input'/>
-						</div>
-						<div class='form-input input-small'>
-							<label>Post Code</label><br/>
-							<input type='number' name='postcode' placeholder='Post Code' id='postcode-input'/>
-						</div>
-						<div class='hr' style='margin-bottom: 5px;'></div>
-						<div class='form-input-checkbox'>
-							<input type="checkbox" id="shipping-checkbox"/> My shipping and billing information is the same.
-						</div>
-					</div>
-					<div id="form-submit">
-						<input type='submit' value='Next'/>
-					</div>
-				</div>
-				<div id="confirmation-body">
-					<div id="contact-details">
-						<div class='form-input input-small'>
-							<label>First name conf</label><br/>
-							<input type='text' name='firstname' placeholder='First Name' id='firstname-input'/>
-						</div>
-						<div class='form-input input-small'>
-							<label>Last name</label><br/>
-							<input type='text' name='lastname' placeholder='Last Name' id='lastname-input'/>
-						</div>
-						<div class='form-input input-small'>
-							<label>E-mail</label><br/>
-							<input type='email' name='email' placeholder='E-Mail Address' id='email-input'/>
-						</div>
-					</div>
-					<div class='hr'></div>
-					<div id="Address-details">
-						<div class='form-input input-small'>
-							<label>Contact Number</label><br/>
-							<input type='number' name='company' placeholder='Contact Number' id='contact-input'/>
-						</div>
-						<div class='form-input input-medium'>
-							<label>Street Address</label><br/>
-							<input type='text' name='address' placeholder='Street Address' id='address-input'/>
-						</div>
-						<!-- Line Break -->
-						<div class='form-input input-small'>
-							<label>Country</label><br/>
-							<input type='text' name='country' placeholder='Country' id='country-input'/>
-						</div>
-						<div class='form-input input-small'>
-							<label>City</label><br/>
-							<input type='text' name='city' placeholder='City' id='city-input'/>
-						</div>
-						<div class='form-input input-small'>
-							<label>Post Code</label><br/>
-							<input type='number' name='postcode' placeholder='Post Code' id='postcode-input'/>
-						</div>
-						<div class='hr' style='margin-bottom: 5px;'></div>
-						<div class='form-input-checkbox'>
-							<input type="checkbox" id="shipping-checkbox"/> My shipping and billing information is the same.
-						</div>
-					</div>
-					<div id="form-submit">
-						<input type='submit' value='Next'/>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Shopping Cart Menu -->
-		<div id="form-cart-menu">
-			<div class="shopping-cart-head">
-				<h1>Shopping Cart</h1>
-			</div>
-			<table id="shopping-cart-menu">
-				<tr class='shopping-cart-item'>
-					<td class='cart-title'>Apply First Aid</td>
-					<td class='cart-price'>192.50</td>
-				</tr>
-				<tr class='shopping-cart-item'>
-					<td class='cart-title'>Standard 11 (Generic Mining Induction)</td>
-					<td class='cart-price'>660.00</td>
-				</tr>
-				<tr class='shopping-cart-item'>
-					<td class='cart-title'>Confined Space Entry</td>
-					<td class='cart-price'>302.50</td>
-				</tr>
-				<tr class='shopping-cart-total'>
-					<td class='cart-total'>Total</td>
-					<td class='cart-price-total'></td>
-				</tr>
-			</table>
-		</div>
-	</form>
-	<!-- partial -->
-</body>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script><script  src="./script.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>e-commerce | cods</title>
+    <link rel="shortcut icon" href="images/avatar.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-</body>
+  <body>
+    <div class="container">
+      <div class="input-container">
+        <input type="text" class="search" placeholder="Search Product"/>
+        <ion-icon name="options-outline"></ion-icon>
+      </div>
+    </div>
+    <div class="container">
+      <h1 class="heading">Trending Products</h1>
+    </div>
+    <section id="main">
+      <div class="container">
+        <div class="main-content">
+          <!-- Products-section-start -->
+          <div class="products"></div>
+          <!-- Products-section-end -->
+          <!-- sidebar-section-end -->
+          <div class="sidebar close">
+            <ul class="sidebar-icons">
+              <li class="sidebar-icon">
+                <a href="#!">
+                  <ion-icon name="heart-outline"></ion-icon>
+                  <span class="sidebar-icon-name">Wishlist</span>
+                </a>
+              </li>
+              <li class="sidebar-icon">
+                <a href="#!">
+                  <ion-icon name="wallet-outline"></ion-icon>
+                  <span class="sidebar-icon-name">Wallet</span>
+                </a>
+              </li>
+              <li class="sidebar-icon">
+                <a href="" class="btn-toggle-cart-list">
+                  <ion-icon name="cart-outline"></ion-icon>
+                  <span class="cart-badge">0</span>
+                  <span class="sidebar-icon-name">Cart</span>
+                </a>
+              </li>
+              <li class="sidebar-icon">
+                <div class="profile">
+                  <img src="images/avatar.svg" alt="Profile" class="profile-img" />
+                  <span class="sidebar-icon-name">Cods</span>
+                </div>
+              </li>
+              <li class="sidebar-icon">
+                <a href="" class="theme_toggle">
+                  <ion-icon name="sunny-outline"></ion-icon>
+                  <span class="sidebar-icon-name">Light</span>
+                </a>
+              </li>
+              <li class="sidebar-icon">
+                <div class="sidebar-arrow">
+                  <ion-icon name="chevron-back-outline"></ion-icon>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- sidebar-section-end -->
+          <!-- Cart-product-list-section-start -->
+          <div class="cart-product-list">
+            <div class="icon-cart-close">
+              <ion-icon name="close-outline"></ion-icon>
+            </div>
+            <div class="list-of-product"></div>
+            <div class="calculate">
+              <h3 class="total-price"></h3>
+              <button class="btn-checkout" disabled>Checkout</button>
+            </div>
+          </div>
+          <!-- Cart-product-list-section-end -->
+        </div>
+      </div>
+    </section>
+    <!-- Error -->
+    <div class="cart-error"></div>
+    <!-- Error -->
+    <!-- Javascript -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+
 </html>
