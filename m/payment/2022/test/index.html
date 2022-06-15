@@ -110,8 +110,9 @@
                 font-size: 16px;
                 border-radius: 5px;
                 outline: none;
-                border: none;
+                border: 1px solid #000;
                 color: #000;
+                margin: 8px 0;
             }
             input::placeholder {
               color: #000;
@@ -297,7 +298,8 @@
                 </div>
                 <div class="block">
                     <h3 align="center" class="nicefont">Payment Method</h3>
-                    <p>Cash on Delivery</p>
+                    <p>DANA</p>
+                    <p>OVO</p>
                 </div>
                 
                 <div class="greenblock" onclick="ordernow()">
@@ -531,11 +533,7 @@
         
         showpart("order")
         
-        $("#whole").hide()
-        setTimeout(function(){
-            $("#cover").fadeOut()
-            $("#whole").fadeIn()
-        }, 2000)
+
         
         $("#ordernumber").val(function(){
             return Math.floor(Math.random() * 9999) + 1000
