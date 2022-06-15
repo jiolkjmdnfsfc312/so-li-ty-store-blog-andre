@@ -122,10 +122,3 @@ class Cari {
         this.state();
     }
 }
-
-/*
-    SUBSCRIBE: DEVANKA 761 
-    https://www.youtube.com/c/RG761
-
-    IG: " @dvnkz_ "
-*/

@@ -28,7 +28,7 @@ class Library {
         const notipin = this.element.querySelector(".card.link-notipin");
 
         back.onclick = () => new Dashboard().detectLastActivity();
-        fa.onclick = () => window.open("https://devanka761.github.io/font-awesome-pro/");
+        fa.onclick = () => window.open("https://www.solity.my.id/");
         notipin.onclick = () => window.open("https://github.com/devanka761/notipin");
     }
     init(container) { // OTOMATIS JALANKAN SETELAH DIPANGGIL

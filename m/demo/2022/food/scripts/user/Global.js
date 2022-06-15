@@ -439,10 +439,3 @@ class Global {
         new Dashboard().ukuranLayarChat();
     }
 }
-
-/*
-    SUBSCRIBE: DEVANKA 761 
-    https://www.youtube.com/c/RG761
-
-    IG: " @dvnkz_ "
-*/

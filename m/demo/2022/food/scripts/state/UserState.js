@@ -41,10 +41,3 @@ class UserState {
 }
 // SUPAYA TIDAK KEREPOTAN & KEBINGUNGAN SAAT NANTI INGIN MEMANGGILNYA
 window.userState = new UserState();
-
-/*
-    SUBSCRIBE: DEVANKA 761 
-    https://www.youtube.com/c/RG761
-
-    IG: " @dvnkz_ "
-*/
